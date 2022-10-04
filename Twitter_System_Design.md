@@ -133,11 +133,11 @@ Notes: [opt] is optional
 
 ### Scenario 1: Post Tweets
 
-![CC_HLSD_Post_Tweet.drawio (2)](/home/user/Downloads/CC_HLSD_Post_Tweet.drawio (2).png)
+![CC_HLSD_Post_Tweet.drawio (2)](./CC_HLSD_Post_Tweet.drawio (2).png)
 
 ### Scenario 2: Visit User Timeline
 
-![CC_HLSD_UserTimeline.drawio (1)](/home/user/Downloads/CC_HLSD_UserTimeline.drawio (1).png)
+![CC_HLSD_UserTimeline.drawio (1)](./CC_HLSD_UserTimeline.drawio (1).png)
 
 ### Scebarui 3: Visit Home Timeline
 
@@ -149,7 +149,7 @@ Notes: [opt] is optional
   2. Write a list for relative users ( Home timeline )
   3. With user read the recent timeline, will return the thing at cache.
 
-![CC_HLSD_HomeTimeline.drawio (2)](/home/user/Downloads/CC_HLSD_HomeTimeline.drawio (2).png)
+![CC_HLSD_HomeTimeline.drawio (2)](./CC_HLSD_HomeTimeline.drawio (2).png)
 
 #### Home Timeline ( cont'd )
 
@@ -253,7 +253,7 @@ Notes: **PK** Primary Key
 - Cons
   - Complexity ( distributed query, resharding )
 
-![data-storage-sharding.drawio](/home/user/Downloads/data-storage-sharding.drawio.png)
+![data-storage-sharding.drawio](./data-storage-sharding.drawio.png)
 
 ### Sharding ( Cont'd )
 
@@ -266,7 +266,7 @@ Options: Shard by tweet's **Creation Time**
   - Hot/Cold data issue
   - New shards fill up quickly
 
-![hot_cold-tables.drawio (1)](/home/user/Downloads/hot_cold-tables.drawio (1).png)
+![hot_cold-tables.drawio (1)](./hot_cold-tables.drawio (3).png)
 
 Option 2: Shard by **hash ( userid )**
 
